@@ -21,7 +21,7 @@ body{
     flex :50%;
     height: 950px;
 }
-p{
+#p{
     text-align: center;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -33,33 +33,43 @@ hr{
     color: rgb(138, 98, 50);
 }
 #img1{
-   padding-left: 30px;
+   padding-left: 150px;
    padding-top: 30px;
 }
 #img2{
 margin-right: 50px;
+padding-top: 30px;
+padding-left: 150px;
 
 }
-#img3{
-   padding-left: 30px;
-   padding-top: 90px;
-
+#heading{
+   text-align: center;
+   color: rgb(136, 103, 60);
+   font-size: 15px;
+   font-family:  Arial, sans-serif;
 }
-#img4{
-   padding-left: 60px;
-   padding-top: 50px;
+#des{
+      text-align: center;
+      max-width: 150px;
+      color: rgb(136, 103, 60);
 }
-#img5{
-    padding-left: 40px;
-    padding-top: 50px; 
-}
-p:hover{
+#border{
+    border: 3px solid rgb(187, 152, 110);
+    border-radius: 8px;
+    box-shadow: 0 20px 20px rgb(136, 103, 60);
     
-    color : brown;
+}
+#border2{
+    border: 3px solid rgb(187, 152, 110);
+    border-radius: 8px;
+    box-shadow: 0 20px 20px rgb(136, 103, 60);
+    background-color: antiquewhite;
+    height : 42.5%
+}
+#border:hover{
+    transform : translate(-5px);
+}
+#border2:hover{
+    transform : translate(-5px);
 }
 
-@media (max-width: 768px) {
-  .sidebar {
-    display: none;
-  }
-}
